@@ -1,0 +1,146 @@
+==========================================
+SLURM_JOB_ID = 534145
+SLURM_NODELIST = gnode63
+SLURM_JOB_GPUS = 0
+==========================================
+Input Notebook:  crepe.ipynb
+Output Notebook: crepe_1.ipynb
+Executing:   0%|          | 0/12 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing:   8%|▊         | 1/12 [00:12<02:15, 12.29s/cell]Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing:  17%|█▋        | 2/12 [00:13<00:57,  5.72s/cell]Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+GPU available: True, used: True
+
+TPU available: False, using: 0 TPU cores
+
+IPU available: False, using: 0 IPUs
+
+Reusing dataset d_bpedia14 (/home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e)
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+Loading cached shuffled indices for dataset at /home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e/cache-59ea2558a7a0ad48.arrow
+
+Loading cached shuffled indices for dataset at /home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e/cache-2e9baea663ed12e3.arrow
+
+  0%|          | 0/560000 [00:00<?, ?it/s]
+  0%|          | 0/560000 [00:00<?, ?it/s]
+  0%|          | 0/70000 [00:00<?, ?it/s]
+  0%|          | 0/70000 [00:00<?, ?it/s]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+Set SLURM handle signals.
+
+
+   | Name        | Type       | Params
+--------------------------------------------
+0  | crepe_cnn   | Sequential | 1.4 M 
+1  | crepe_dense | Sequential | 10.0 M
+2  | train_acc   | Accuracy   | 0     
+3  | train_prec  | Precision  | 0     
+4  | train_rec   | Recall     | 0     
+5  | train_f1    | F1         | 0     
+6  | val_acc     | Accuracy   | 0     
+7  | val_prec    | Precision  | 0     
+8  | val_rec     | Recall     | 0     
+9  | val_f1      | F1         | 0     
+10 | test_acc    | Accuracy   | 0     
+11 | test_prec   | Precision  | 0     
+12 | test_rec    | Recall     | 0     
+13 | test_f1     | F1         | 0     
+--------------------------------------------
+11.4 M    Trainable params
+0         Non-trainable params
+11.4 M    Total params
+45.400    Total estimated model params size (MB)
+
+Validation sanity check: 0it [00:00, ?it/s]
+/home2/kawshikmanikantan/IREMajor/miniconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+
+/home2/kawshikmanikantan/IREMajor/miniconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+
+Training: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Validating: 0it [00:00, ?it/s]
+Reusing dataset d_bpedia14 (/home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e)
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+Loading cached shuffled indices for dataset at /home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e/cache-59ea2558a7a0ad48.arrow
+
+Loading cached shuffled indices for dataset at /home2/kawshikmanikantan/.cache/huggingface/datasets/d_bpedia14/dbpedia_14/2.0.0/7f0577ea0f4397b6b89bfe5c5f2c6b1b420990a1fc5e8538c7ab4ec40e46fa3e/cache-2e9baea663ed12e3.arrow
+
+  0%|          | 0/560000 [00:00<?, ?it/s]
+  0%|          | 0/560000 [00:00<?, ?it/s]
+  0%|          | 0/70000 [00:00<?, ?it/s]
+  0%|          | 0/70000 [00:00<?, ?it/s]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+/home2/kawshikmanikantan/IREMajor/miniconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:111: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+
+Testing: 0it [00:00, ?it/s]
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'test_acc': 0.9793428778648376,
+ 'test_f1': 0.9793428778648376,
+ 'test_loss': 0.09376721829175949,
+ 'test_prec': 0.9793428778648376,
+ 'test_rec': 0.9793428778648376}
+--------------------------------------------------------------------------------
+
+Classification Report:                precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94      5000
+           1       0.97      0.98      0.98      5000
+           2       0.96      0.98      0.97      5000
+           3       0.99      0.99      0.99      5000
+           4       0.99      0.95      0.97      5000
+           5       0.98      0.99      0.98      5000
+           6       0.98      0.95      0.97      5000
+           7       0.99      0.98      0.99      5000
+           8       1.00      1.00      1.00      5000
+           9       0.99      0.99      0.99      5000
+          10       0.99      0.98      0.99      5000
+          11       0.99      0.99      0.99      5000
+          12       0.99      0.99      0.99      5000
+          13       0.98      0.98      0.98      5000
+
+    accuracy                           0.98     70000
+   macro avg       0.98      0.98      0.98     70000
+weighted avg       0.98      0.98      0.98     70000
+
+Accuracy:  0.9793428571428572 
+
+
+
+Ending Cell 4------------------------------------------
+Executing:  33%|███▎      | 4/12 [1:29:33<3:44:19, 1682.46s/cell]Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing:  58%|█████▊    | 7/12 [1:29:33<59:49, 717.96s/cell]   Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing:  83%|████████▎ | 10/12 [1:29:33<13:09, 394.72s/cell]Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing: 100%|██████████| 12/12 [1:29:40<00:00, 448.36s/cell]
